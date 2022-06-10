@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57874D272853829800709373 /* Green_hopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57874D262853829800709373 /* Green_hopeApp.swift */; };
+		57874D2B2853829800709373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57874D2A2853829800709373 /* Assets.xcassets */; };
+		57874D2E2853829800709373 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57874D2D2853829800709373 /* Preview Assets.xcassets */; };
+		57874D382853829800709373 /* Green_hopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57874D372853829800709373 /* Green_hopeTests.swift */; };
+		57874D422853829800709373 /* Green_hopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57874D412853829800709373 /* Green_hopeUITests.swift */; };
+		57874D442853829800709373 /* Green_hopeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57874D432853829800709373 /* Green_hopeUITestsLaunchTests.swift */; };
+		57874D51285382D100709373 /* Denuncias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57874D50285382D100709373 /* Denuncias.swift */; };
+		57874D53285382D800709373 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57874D52285382D800709373 /* Home.swift */; };
+		57874D55285382E000709373 /* Sobre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57874D54285382E000709373 /* Sobre.swift */; };
+		57874D572853830000709373 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57874D562853830000709373 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57874D342853829800709373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57874D1B2853829700709373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57874D222853829700709373;
+			remoteInfo = "Green-hope";
+		};
+		57874D3E2853829800709373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57874D1B2853829700709373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57874D222853829700709373;
+			remoteInfo = "Green-hope";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57874D232853829700709373 /* Green-hope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green-hope.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57874D262853829800709373 /* Green_hopeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_hopeApp.swift; sourceTree = "<group>"; };
+		57874D2A2853829800709373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57874D2D2853829800709373 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57874D332853829800709373 /* Green-hopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green-hopeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57874D372853829800709373 /* Green_hopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_hopeTests.swift; sourceTree = "<group>"; };
+		57874D3D2853829800709373 /* Green-hopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green-hopeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57874D412853829800709373 /* Green_hopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_hopeUITests.swift; sourceTree = "<group>"; };
+		57874D432853829800709373 /* Green_hopeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_hopeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57874D50285382D100709373 /* Denuncias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Denuncias.swift; path = "../../../cbolao/Green Hope/Green Hope/Denuncias.swift"; sourceTree = "<group>"; };
+		57874D52285382D800709373 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Home.swift; path = "../../../cbolao/Green Hope/Green Hope/Home.swift"; sourceTree = "<group>"; };
+		57874D54285382E000709373 /* Sobre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sobre.swift; path = "../../../cbolao/Green Hope/Green Hope/Sobre.swift"; sourceTree = "<group>"; };
+		57874D562853830000709373 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../cbolao/Green Hope/Green Hope/ContentView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57874D202853829700709373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57874D302853829800709373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57874D3A2853829800709373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57874D1A2853829700709373 = {
+			isa = PBXGroup;
+			children = (
+				57874D252853829700709373 /* Green-hope */,
+				57874D362853829800709373 /* Green-hopeTests */,
+				57874D402853829800709373 /* Green-hopeUITests */,
+				57874D242853829700709373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57874D242853829700709373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57874D232853829700709373 /* Green-hope.app */,
+				57874D332853829800709373 /* Green-hopeTests.xctest */,
+				57874D3D2853829800709373 /* Green-hopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57874D252853829700709373 /* Green-hope */ = {
+			isa = PBXGroup;
+			children = (
+				57874D262853829800709373 /* Green_hopeApp.swift */,
+				57874D562853830000709373 /* ContentView.swift */,
+				57874D52285382D800709373 /* Home.swift */,
+				57874D50285382D100709373 /* Denuncias.swift */,
+				57874D54285382E000709373 /* Sobre.swift */,
+				57874D2A2853829800709373 /* Assets.xcassets */,
+				57874D2C2853829800709373 /* Preview Content */,
+			);
+			path = "Green-hope";
+			sourceTree = "<group>";
+		};
+		57874D2C2853829800709373 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57874D2D2853829800709373 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57874D362853829800709373 /* Green-hopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				57874D372853829800709373 /* Green_hopeTests.swift */,
+			);
+			path = "Green-hopeTests";
+			sourceTree = "<group>";
+		};
+		57874D402853829800709373 /* Green-hopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57874D412853829800709373 /* Green_hopeUITests.swift */,
+				57874D432853829800709373 /* Green_hopeUITestsLaunchTests.swift */,
+			);
+			path = "Green-hopeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57874D222853829700709373 /* Green-hope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57874D472853829800709373 /* Build configuration list for PBXNativeTarget "Green-hope" */;
+			buildPhases = (
+				57874D1F2853829700709373 /* Sources */,
+				57874D202853829700709373 /* Frameworks */,
+				57874D212853829700709373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Green-hope";
+			productName = "Green-hope";
+			productReference = 57874D232853829700709373 /* Green-hope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57874D322853829800709373 /* Green-hopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57874D4A2853829800709373 /* Build configuration list for PBXNativeTarget "Green-hopeTests" */;
+			buildPhases = (
+				57874D2F2853829800709373 /* Sources */,
+				57874D302853829800709373 /* Frameworks */,
+				57874D312853829800709373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57874D352853829800709373 /* PBXTargetDependency */,
+			);
+			name = "Green-hopeTests";
+			productName = "Green-hopeTests";
+			productReference = 57874D332853829800709373 /* Green-hopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57874D3C2853829800709373 /* Green-hopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57874D4D2853829800709373 /* Build configuration list for PBXNativeTarget "Green-hopeUITests" */;
+			buildPhases = (
+				57874D392853829800709373 /* Sources */,
+				57874D3A2853829800709373 /* Frameworks */,
+				57874D3B2853829800709373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57874D3F2853829800709373 /* PBXTargetDependency */,
+			);
+			name = "Green-hopeUITests";
+			productName = "Green-hopeUITests";
+			productReference = 57874D3D2853829800709373 /* Green-hopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57874D1B2853829700709373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					57874D222853829700709373 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					57874D322853829800709373 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 57874D222853829700709373;
+					};
+					57874D3C2853829800709373 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 57874D222853829700709373;
+					};
+				};
+			};
+			buildConfigurationList = 57874D1E2853829700709373 /* Build configuration list for PBXProject "Green-hope" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57874D1A2853829700709373;
+			productRefGroup = 57874D242853829700709373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57874D222853829700709373 /* Green-hope */,
+				57874D322853829800709373 /* Green-hopeTests */,
+				57874D3C2853829800709373 /* Green-hopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57874D212853829700709373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57874D2E2853829800709373 /* Preview Assets.xcassets in Resources */,
+				57874D2B2853829800709373 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57874D312853829800709373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57874D3B2853829800709373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57874D1F2853829700709373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57874D51285382D100709373 /* Denuncias.swift in Sources */,
+				57874D572853830000709373 /* ContentView.swift in Sources */,
+				57874D55285382E000709373 /* Sobre.swift in Sources */,
+				57874D53285382D800709373 /* Home.swift in Sources */,
+				57874D272853829800709373 /* Green_hopeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57874D2F2853829800709373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57874D382853829800709373 /* Green_hopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57874D392853829800709373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57874D442853829800709373 /* Green_hopeUITestsLaunchTests.swift in Sources */,
+				57874D422853829800709373 /* Green_hopeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57874D352853829800709373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57874D222853829700709373 /* Green-hope */;
+			targetProxy = 57874D342853829800709373 /* PBXContainerItemProxy */;
+		};
+		57874D3F2853829800709373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57874D222853829700709373 /* Green-hope */;
+			targetProxy = 57874D3E2853829800709373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57874D452853829800709373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57874D462853829800709373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57874D482853829800709373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Green-hope/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ifce.Green-hope";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57874D492853829800709373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Green-hope/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ifce.Green-hope";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57874D4B2853829800709373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ifce.Green-hopeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green-hope.app/Green-hope";
+			};
+			name = Debug;
+		};
+		57874D4C2853829800709373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ifce.Green-hopeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green-hope.app/Green-hope";
+			};
+			name = Release;
+		};
+		57874D4E2853829800709373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ifce.Green-hopeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Green-hope";
+			};
+			name = Debug;
+		};
+		57874D4F2853829800709373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ifce.Green-hopeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Green-hope";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57874D1E2853829700709373 /* Build configuration list for PBXProject "Green-hope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57874D452853829800709373 /* Debug */,
+				57874D462853829800709373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57874D472853829800709373 /* Build configuration list for PBXNativeTarget "Green-hope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57874D482853829800709373 /* Debug */,
+				57874D492853829800709373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57874D4A2853829800709373 /* Build configuration list for PBXNativeTarget "Green-hopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57874D4B2853829800709373 /* Debug */,
+				57874D4C2853829800709373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57874D4D2853829800709373 /* Build configuration list for PBXNativeTarget "Green-hopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57874D4E2853829800709373 /* Debug */,
+				57874D4F2853829800709373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57874D1B2853829700709373 /* Project object */;
+}
